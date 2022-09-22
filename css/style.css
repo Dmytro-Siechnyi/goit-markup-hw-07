@@ -132,7 +132,6 @@ max-width: 1200px;
 .logo {
 margin-right: 91px;
 
-color: currentColor;
 color: var(--accent-color);
     
 font-family: Raleway, sans-serif;
@@ -143,14 +142,8 @@ line-height: 1.19;
 text-decoration: none;
 }
 .logo__dark {
-color: currentColor;
 color: var(--logo-text-color);
-    
-font-family: Raleway, sans-serif;
-letter-spacing: 0.03em;
-font-weight: 700;
-font-size: 26px;
-line-height: 1.19;
+
 text-decoration: none;
 }
 
