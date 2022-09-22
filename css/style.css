@@ -962,7 +962,7 @@ font-size: 14px;
 line-height: 1.71;
 }
 
-.address__link-contacts--color-address {
+.address__link-contacts--light {
 color: var(--footer-text-color);
 }
 
@@ -971,8 +971,8 @@ color: var(--footer-text-color);
     color: var(--accent-color);
 }
 
-.address__link-contacts--color-address:hover,
-.address__link-contacts--color-address:focus {
+.address__link-contacts--light:hover,
+.address__link-contacts--light:focus {
 color: var(--accent-color);
 }
 
