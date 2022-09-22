@@ -115,7 +115,7 @@ border-bottom: 1px solid var(--color-border-projects);
 letter-spacing: 0.02em;
 }
 /* Центрування */
-.header-container {
+.page-header__container {
 display: flex;
 align-items: center;
 }
@@ -129,7 +129,7 @@ max-width: 1200px;
 }
 
 /* Логотип header*/
-.logo {
+.page-header__logo {
 margin-right: 93px;
 padding-top: 24px;
 padding-bottom: 25px;
@@ -144,7 +144,7 @@ font-size: 26px;
 line-height: 1.19;
 text-decoration: none;
 }
-.logo-web {
+.page-header__logo--dark {
 color: currentColor;
 color: var(--logo-text-color);
     
