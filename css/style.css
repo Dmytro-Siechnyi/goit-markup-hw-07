@@ -221,7 +221,7 @@ transform: scaleX(0.4);
 }
 
 /* Авторизація */
-.auth-nav {
+.auth {
 display: flex;
 justify-content: center;
 }
