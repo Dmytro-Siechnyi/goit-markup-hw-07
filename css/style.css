@@ -949,18 +949,6 @@ margin-bottom: 9px;
 margin-bottom: 0;
 }
 
-.address__link-address {
-color: var(--footer-text-color);
-
-transition-property: color;
-transition-duration: 250ms;
-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-    
-text-decoration: none;
-letter-spacing: 0.03em;
-font-size: 14px;
-line-height: 1.71;
-}
 .address__link-contacts {
 color: var(--accent-color-text-footer);
 
@@ -974,13 +962,17 @@ font-size: 14px;
 line-height: 1.71;
 }
 
+.address__link-contacts--color-address {
+color: var(--footer-text-color);
+}
+
 .address__link-contacts:hover,
 .address__link-contacts:focus {
     color: var(--accent-color);
 }
 
-.address__link-address:hover,
-.address__link-address:focus {
+.address__link-contacts--color-address:hover,
+.address__link-contacts--color-address:focus {
 color: var(--accent-color);
 }
 
