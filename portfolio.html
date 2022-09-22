@@ -38,7 +38,6 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body class="body">
-
     <!-- Header -->
     <header class="header">
       <div class="header__container container">
@@ -88,10 +87,9 @@
         </ul>
       </div>
     </header>
-    
+
     <!--Мейн-->
     <main class="page-main">
-
       <!-- Кнопки -->
       <section class="section">
         <div class="container">
@@ -104,7 +102,9 @@
             <li>
               <button type="button" class="filter-item__btn">Додатки</button>
             </li>
-            <li><button type="button" class="filter-item__btn">Дизайн</button></li>
+            <li>
+              <button type="button" class="filter-item__btn">Дизайн</button>
+            </li>
             <li>
               <button type="button" class="filter-item__btn">Маркетинг</button>
             </li>
@@ -341,22 +341,24 @@
     <!--Footer-->
     <footer class="footer">
       <div class="footer__container container">
-
         <div class="box-address">
-            <a href="./index.html" class="footer-logo"
-              >Web<span class="footer-logo__light">Studio</span></a
-            >
+          <a href="./index.html" class="footer-logo"
+            >Web<span class="footer-logo__light">Studio</span></a
+          >
           <address>
             <ul class="address list">
               <li class="address__item">
-                <a class="address__link-address link"
+                <a
+                  class="address__link-address link"
                   href="https://www.google.com/maps/place/бул.+Леси+Украинки,+26,+Киев,+02000/@50.4265807,30.5361971,17z/data=!3m1!4b1!4m5!3m4!1s0x40d4cf0e033ecbe9:0x57a4dffefec77da0!8m2!3d50.4265807!4d30.5383858"
                   >м. Київ, пр-т Лесі Українки, 26</a
                 >
               </li>
 
               <li class="address__item">
-                <a class="address__link-contacts link" href="mailto:info@devstudio.com"
+                <a
+                  class="address__link-contacts link"
+                  href="mailto:info@devstudio.com"
                   >info@devstudio.com</a
                 >
               </li>
@@ -370,7 +372,7 @@
           </address>
         </div>
 
-      <!-- footer social network -->
+        <!-- footer social network -->
         <div class="box-footer-network">
           <h2 class="footer-title">приєднуйтесь</h2>
           <ul class="network-list list">
@@ -438,16 +440,29 @@
 
         <!-- формы -->
         <form class="footer-form" lang="en" name="footer-form">
-           <strong class="footer-form__title">Підпишіться на розсилку</strong>
-           <div class="footer-form__group" role="group">
-              <label>
-               <input class="footer-form__field" type="email" lang="en" name="user-name" placeholder="E-mail" required minlength="6" maxlength="50">
-              </label>
+          <strong class="footer-form__title">Підпишіться на розсилку</strong>
+          <div class="footer-form__group" role="group">
+            <label>
+              <input
+                class="footer-form__field"
+                type="email"
+                lang="en"
+                name="user-name"
+                placeholder="E-mail"
+                required
+                minlength="6"
+                maxlength="50"
+              />
+            </label>
 
-              <button class="button-modal button-footer" type="submit">Підписатися <svg class="button-footer__icvon" width="24px" height="24px"><use href="./images/svg/icons.svg#send-modal"></use></svg></button>
-           </div>
-          </form>
-        </div>
+            <button class="button-modal button-footer" type="submit">
+              Підписатися
+              <svg class="button-footer__icvon" width="24px" height="24px">
+                <use href="./images/svg/icons.svg#send-modal"></use>
+              </svg>
+            </button>
+          </div>
+        </form>
       </div>
     </footer>
     <script src="./js/modal.js"></script>
