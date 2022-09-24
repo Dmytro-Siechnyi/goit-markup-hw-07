@@ -1129,4 +1129,26 @@ textarea {
 }
 .address__link-contacts--light:hover, .address__link-contacts--light:focus {
   color: var(--accent-color);
+}
+
+/**
+  |============================
+  | Блок 25
+  |============================
+*/
+.box-footer-network {
+  -webkit-box-align: baseline;
+      -ms-flex-align: baseline;
+          align-items: baseline;
+  margin-left: 70px;
+}
+
+.footer-title-network {
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--button-text-color);
 }/*# sourceMappingURL=main.css.map */

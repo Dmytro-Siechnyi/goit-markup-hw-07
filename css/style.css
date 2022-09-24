@@ -972,12 +972,12 @@ color: var(--accent-color);
 
 
 /* footer social network */
-.box-footer-network {
+/* .box-footer-network {
 align-items: baseline;
 margin-left: 70px;
 }
 
-.footer-title {
+.footer-title-network {
 margin-bottom: 20px;
 font-weight: 700;
 font-size: 14px;
@@ -985,7 +985,7 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--button-text-color);
-}
+} */
 
 .network-list__link-footer {
 display: flex;
@@ -1008,10 +1008,6 @@ color: var(--button-text-color);
 .network-list__link-footer:hover,
 .network-list__link-footer:focus {
 background-color: var(--accent-color);
-}
-
-.network-list__socials-icon {
-fill: currentColor;
 }
 
 /* форма */
