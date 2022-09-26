@@ -24,6 +24,7 @@ border-radius: 50%;
 }
 
 .network__socials-link--color {
+@extend .network__socials-link;
 transition-property: color, background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -39,6 +40,7 @@ background-color: var(--accent-color);
 }
 
 .network__socials-link--color-invers {
+@extend .network__socials-link;
 transition-property: background-color;
 transition-duration: 250ms;
 transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
