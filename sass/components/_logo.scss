@@ -19,14 +19,12 @@ text-decoration: none;
 }
 
 .logo__dark {
-@extend .logo;
 color: var(--logo-text-color);
 
 text-decoration: none;
 }
 
 .logo__light {
-@extend .logo;
 color: var(--footer-text-color);
 
 text-decoration: none;

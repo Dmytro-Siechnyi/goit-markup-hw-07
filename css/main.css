@@ -114,7 +114,7 @@ img {
   color: currentColor;
 }
 
-.section.no-padding {
+.section--no-padding {
   padding-top: 0;
 }
 
@@ -295,15 +295,9 @@ textarea {
   fill: var(--accent-color);
 }
 
-.auth__mail-icon {
+.auth__icon {
   width: 16px;
   height: 12px;
-  fill: currentColor;
-}
-
-.auth__tel-icon {
-  width: 10px;
-  height: 16px;
   fill: currentColor;
 }
 
@@ -313,10 +307,12 @@ textarea {
   |============================
 */
 /* Блок герой */
-.hero {
-  text-align: center;
+.hero__container {
   padding-top: 200px;
   padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
   background-color: var(--background-color-hero);
   max-width: 1600px;
   height: 600px;
@@ -973,7 +969,7 @@ textarea {
   gap: 10px;
 }
 
-.network__socials-link {
+.network__socials-link, .network__socials-link--color-invers, .network__socials-link--color {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
