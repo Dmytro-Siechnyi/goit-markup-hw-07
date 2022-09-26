@@ -16,7 +16,8 @@ gap: 50px;
 margin-right: auto;
 }
 
-.nav__item {
+.nav__link {
+position: relative;
 padding-top: 32px;
 padding-bottom: 32px;
 
@@ -39,9 +40,7 @@ cursor: pointer;
 }
 }
 
-.nav__item--current-color {
-position: relative;
-
+.nav__link--current-color {
 color: var(--accent-color);
 
 &::after {

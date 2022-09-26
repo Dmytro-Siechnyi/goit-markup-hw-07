@@ -196,7 +196,8 @@ textarea {
   margin-right: auto;
 }
 
-.nav__item {
+.nav__link {
+  position: relative;
   padding-top: 32px;
   padding-bottom: 32px;
   color: var(--title-text-color);
@@ -212,16 +213,15 @@ textarea {
   line-height: 1.14;
   text-decoration: none;
 }
-.nav__item:hover, .nav__item:focus {
+.nav__link:hover, .nav__link:focus {
   color: var(--accent-color);
   cursor: pointer;
 }
 
-.nav__item--current-color {
-  position: relative;
+.nav__link--current-color {
   color: var(--accent-color);
 }
-.nav__item--current-color::after {
+.nav__link--current-color::after {
   position: absolute;
   left: 0;
   bottom: -1px;
@@ -244,7 +244,7 @@ textarea {
   -webkit-transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
           transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav__item--current-color:hover::after {
+.nav__link--current-color:hover::after {
   -webkit-transform: scaleX(0.4);
           transform: scaleX(0.4);
 }
