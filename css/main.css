@@ -894,7 +894,7 @@ textarea {
   |============================
 */
 /* Наша команда */
-.fon {
+.section--ather-background {
   background-color: var(--secondary-background-color-pag);
 }
 
@@ -906,7 +906,7 @@ textarea {
   gap: 30px;
 }
 
-.team-title {
+.section__title {
   margin-bottom: 50px;
   color: var(--title-text-color);
   letter-spacing: 0.03em;
@@ -934,7 +934,7 @@ textarea {
   text-align: center;
 }
 
-.team__name {
+.team__title {
   margin-bottom: 10px;
   color: var(--title-text-color);
   letter-spacing: 0.03em;
@@ -956,7 +956,7 @@ textarea {
   | Блок 21
   |============================
 */
-.network {
+.socials {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -969,7 +969,7 @@ textarea {
   gap: 10px;
 }
 
-.network__socials-link, .network__socials-link--color-invers, .network__socials-link--color {
+.socials__link, .socials__link--color-invers, .socials__link--color {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -984,7 +984,7 @@ textarea {
   border-radius: 50%;
 }
 
-.network__socials-link--color {
+.socials__link--color {
   -webkit-transition-property: color, background-color;
   transition-property: color, background-color;
   -webkit-transition-duration: 250ms;
@@ -994,12 +994,12 @@ textarea {
   background-color: var(--background-color-header);
   color: var(--color-icon);
 }
-.network__socials-link--color:hover, .network__socials-link--color:focus {
+.socials__link--color:hover, .socials__link--color:focus {
   color: var(--button-text-color);
   background-color: var(--accent-color);
 }
 
-.network__socials-link--color-invers {
+.socials__link--color-invers {
   -webkit-transition-property: background-color;
   transition-property: background-color;
   -webkit-transition-duration: 250ms;
@@ -1009,11 +1009,11 @@ textarea {
   background-color: var(--backdrop-color-footer-network);
   color: var(--button-text-color);
 }
-.network__socials-link--color-invers:hover, .network__socials-link--color-invers:focus {
+.socials__link--color-invers:hover, .socials__link--color-invers:focus {
   background-color: var(--accent-color);
 }
 
-.network__socials-icon {
+.socials__icon {
   fill: currentColor;
 }
 
